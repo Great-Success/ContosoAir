@@ -7,6 +7,7 @@ CLIENT_ID = os.environ['PORT_CLIENT_ID']
 CLIENT_SECRET = os.environ['PORT_CLIENT_SECRET']
 REPO_NAME = os.environ['PORT_SERVICENAME']
 BUILD = os.environ['BUILD_BUILDNUMBER']
+PORT_API_URL = os.environ['PORT_API_URL']
 
 credentials = {
     'clientId': CLIENT_ID,
