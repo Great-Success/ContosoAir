@@ -3,10 +3,10 @@ import requests
 import json
 print(os.environ)
 # These are the credentials passed by the variables of your pipeline to your tasks and in to your env
-CLIENT_ID = os.environ.get(['PORT_CLIENT_ID'])
-CLIENT_SECRET = os.environ.get(['PORT_CLIENT_SECRET'])
-REPO_NAME = os.environ.get(['build.Repository.Name'])
-BUILD = os.environ.get(['build.buildNumber'])
+CLIENT_ID = os.environ['PORT_CLIENT_ID']
+CLIENT_SECRET = os.environ['PORT_CLIENT_SECRET']
+REPO_NAME = os.environ['build.Repository.Name']
+BUILD = os.environ['build.buildNumber']
 
 credentials = {
     'clientId': CLIENT_ID,
