@@ -27,5 +27,5 @@ entity_json = {
 }
 
 # request url : {API_URL}/blueprints/<blueprint_id>/entities
-create_response = requests.post(f'{API_URL}/blueprints/test-blueprint/entities?upsert=true', json=entity_json, headers=headers)
+create_response = requests.post(f'{API_URL}/blueprints/microservice/entities?upsert=true', json=entity_json, headers=headers)
 print(json.dumps(get_response.json(), indent=4))
