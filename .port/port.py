@@ -1,5 +1,3 @@
-pip install -r port_requirements.txt
-
 import os
 import requests
 import json
