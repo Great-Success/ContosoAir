@@ -6,13 +6,13 @@
 			"value": "dev"
 		},
 		"p_site_prefix": {
-			"value": "githubci"
+			"value": "portdemo"
 		},
 		"p_site_web_name": {
-			"value": "web"
+			"value": "portdemo"
 		},
 		"p_comosdb_name":{
-			"value": "db"
+			"value": "portdemodb"
 		}
 	}
 }
