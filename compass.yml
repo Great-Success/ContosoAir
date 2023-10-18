@@ -1,0 +1,16 @@
+name: ContosoAir
+id: ari:cloud:compass:d88c97f6-20a1-4de7-b0ce-e58c0fcf0c0a:component/26adf97a-7ba2-49d5-9125-6ed48391e449/01c62c98-df4a-4977-abc1-d4b0e9e7962f
+description: Source code repository for ContosoAir application
+configVersion: 1
+typeId: WEBSITE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/Great-Success/ContosoAir
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
